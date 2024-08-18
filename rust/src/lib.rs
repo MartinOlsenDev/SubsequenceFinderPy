@@ -16,7 +16,11 @@ fn longest_subsequence_len(a: &PyString, b: &PyString) -> PyResult<u64> {
 
 ///
 #[pyfunction]
-fn longest_subsequence<'a>(py: Python<'a>, a: &'a PyString, b: &'a PyString) -> PyResult<&'a PyString> {
+fn longest_subsequence<'a>(
+    py: Python<'a>,
+    a: &'a PyString,
+    b: &'a PyString,
+) -> PyResult<&'a PyString> {
     let a: &str = a.to_str().unwrap();
     let b: &str = b.to_str().unwrap();
 
