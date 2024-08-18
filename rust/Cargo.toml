@@ -19,3 +19,4 @@ strip = true		# strip debug symbols
 lto = true			# optimize during linking, not compilation
 codegen-units = 1	# Using 1 codegen-unit enables more convoluted optimizations
 panic = "abort"		# Don't include code necessary to stack trace panics
+
