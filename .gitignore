@@ -25,3 +25,7 @@ rust/*.pdb
 
 # Ignore the python virtual environment
 python/.venv
+
+# Ignore any idea files in the project
+**/*.idea
+
